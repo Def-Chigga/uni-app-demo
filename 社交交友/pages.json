@@ -3,7 +3,27 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "首页"
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"backgroundColor": "#f5f4f2",
+							"borderRadius": "4rpx",
+							"placeholder": "搜索帖子",
+							"placeholderColor": "#6d6c67",
+							"disabled": false
+						},
+						"buttons": [
+							{
+								"color":"#333333",
+								"colorPressed":"#FD597C",
+								"float":"right",
+								"fontSize":"20px",
+								"fontSrc":"/static/iconfont.ttf",
+								"text":"\ue668"
+							}
+						]
+					}
+				}
 			}
 		},
 		{
@@ -27,9 +47,9 @@
   ],
 	"tabBar": {
 		"color": "#8C9198",
-		"selectedColor": "#4C92FF",
-		"borderStyle": "white",
-		"backgroundColor": "#ffffff",
+		"selectedColor": "#FF4A6A",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
 		"list": [{
 				"pagePath": "pages/home/home",
 				"iconPath": "static/images/tabbar/tabbar-icon-home.png",
@@ -59,7 +79,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "项目初始化",
-		"navigationBarBackgroundColor": "#000000",
+		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#F8F8F8",
 		"scrollIndicator": "none" // 不显示滚动条
 	}
